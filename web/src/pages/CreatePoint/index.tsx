@@ -37,7 +37,7 @@ const CreatePoint = () =>{
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    whatsaap: ''
+    whatsapp: ''
   })
   const [selectedItems, setSelectdItems] = useState<number[]>([])
   
@@ -103,10 +103,12 @@ const CreatePoint = () =>{
     setFormData({...formData, [name]: value})
   }
 
+  
   async function handleSubmit(event : FormEvent){
+    console.log(formData)
     event.preventDefault()
 
-    const { name, email, whatsaap} = formData
+    const { name, email, whatsapp} = formData
     const uf = selectedUf
     const city = selectedcity
     const [latitude, longitude] = selectedPosition
@@ -115,7 +117,7 @@ const CreatePoint = () =>{
     const data = {
       name, 
       email,
-      whatsaap,
+      whatsapp,
       uf,
       city,
       latitude,
@@ -151,7 +153,7 @@ const CreatePoint = () =>{
         </Link>
       </header>
 
-      <form>
+      <form onSubmit={handleSubmit}>
         <h1>Cadastro do <br/> ponto de coleta</h1>
 
         <fieldset>
@@ -185,8 +187,8 @@ const CreatePoint = () =>{
             <label htmlFor="whatsaap">Whatsaap</label>
             <input 
               type="text"
-              name="whatsaap"
-              id="whatsaap"
+              name="whatsapp"
+              id="whatsapp"
               onChange={handleSelectInput}
             />
             </div>
@@ -203,7 +205,7 @@ const CreatePoint = () =>{
             <span>selecione o endereço no mapa</span>
           </legend>
 
-          <Map center={/*[-16.842752,-42.0530744]*/initialPosition} zoom={15}
+          <Map center={[-16.842752,-42.0530744]/*initialPosition */} zoom={15}
             onClick={handleMapClick}
           >
             <TileLayer
