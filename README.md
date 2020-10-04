@@ -23,8 +23,8 @@
   <a href="#computer-project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-built-with">Construído com</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-run">Para executar Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#mailbox_with_mail-get-in-touch">Get in touch</a>
+  <a href="#memo-license">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#mailbox_with_mail-get-in-touch">Entre em contato</a>
   </p>
 
 <p align="center">
@@ -157,7 +157,7 @@ yarn start
 Expo irá abrir uma página no seu navegador, escaneie o QRcode na página e espere o aplicativo carregar.
 
 > O aplicativo foi desenvolvido e testado no android 11.
-## :memo: License
+## :memo: Licença
 
 Este projeto está sob a licença do MIT. Consulte a [LICENÇA] (https://opensource.org/licenses/MIT) para obter mais informações
 
