@@ -35,11 +35,9 @@
 ## :computer: Projeto  
 
  Ecoleta é um aplicativo que tem como objetivo fomentar a reciclagem de resíduos. Ele ajuda  pessoas a encontrar pontos de coleta.
-<!--
  <p align="center">
   <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1591434863/Omnistack/j7gkzljoqptkidehvbuv.gif" >
 </p>
--->
 ## :rocket: Construído com
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
@@ -52,6 +50,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 -   [Typescript](https://www.typescriptlang.org/)
 -   [TS-Node-Dev](https://www.npmjs.com/package/ts-node-dev)
 -   [Celebrate](https://github.com/arb/celebrate)
+-   [sqlite3](https://sqlite.org/index.html)
 -   [knex](https://knexjs.org/)
 -   [multer](https://github.com/expressjs/multer)
 -   [Cors](https://www.npmjs.com/package/cors)
@@ -124,8 +123,9 @@ $ yarn dev
 ### Frontend
 
 ```bash
+# navege até a pasta de frontend
+$ cd ecoleta/frontend
 # Instale as dependências do frontend e execute-o, em outra aba do terminal. 
-$ cd frontend
 $ yarn
 $ yarn start
 ```
@@ -135,8 +135,9 @@ $ yarn start
 O Aplicativo foi desenvolvido em Expo. É uma cadeia de ferramentas gratuita e de código aberto construída em torno do React Native para facilitar o processo de execução e teste de aplicativos. [Clique aqui] (https://expo.io/learn) para começar a Expo.
 
 ```bash
+# navege até a pasta de mobile
+$ cd ecoleta/mobile
 # Instale as dependências
-cd mobile
 yarn
 ```
 
@@ -172,4 +173,4 @@ Este projeto está sob a licença do MIT. Consulte a [LICENÇA] (https://opensou
 
 ---
 
-Feito com:  café: por Spencer Otoni
+Feito com: ☕ and ❤️ by por Spencer Otoni
