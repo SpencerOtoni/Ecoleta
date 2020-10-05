@@ -162,7 +162,7 @@ Expo irá abrir uma página no seu navegador, escaneie o QRcode na página e esp
 
 Este projeto está sob a licença do MIT. Consulte a [LICENÇA] (https://opensource.org/licenses/MIT) para obter mais informações
 
-##:Entre em contato!
+##: Entre em contato!
 
 <a href="https://www.linkedin.com/in/spencer-otoni-desenvolvedor/" target="_blank" >
   <img alt="Linkedin - Stefano Saffran" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
